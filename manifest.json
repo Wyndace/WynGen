@@ -1,0 +1,15 @@
+{
+   "name": "WynGen - The password generator",
+   "description": "This is simple password generator.",
+   "version": "1.0",
+   "manifest_version": 2,
+   "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+   },
+   "homepage_url": "http://wyngen.tk",
+   "permissions": [
+      "clipboardRead",
+      "clipboardWrite"
+   ]
+}

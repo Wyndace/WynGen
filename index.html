@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<title>WynGen - The Password Generator</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="logo">WynGen</h1>
+	</header>
+	<main>
+		<article id="generator">
+			<form id="form" action=" #" method="GET" style="padding-top: 50px;">
+				<h3>How many symbols have your password?</h3>
+				<div class="symbols">
+					<div class="min">
+						<label for="min">from </label><input id="min" value="6" tabindex="1" type="text" name="min">
+					</div>
+					<div class="max">
+						<label for="max">till </label><input id="max" value="40" tabindex="2" type="text" name="max">
+					</div>
+				</div>
+				<button id="generate" tabindex="3" type="button">Generate</button>
+				<div id="pass"></div>
+			</form>
+		</article>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

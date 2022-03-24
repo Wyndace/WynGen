@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+main #generator form button[type="button"] {
+  border-radius: 10px 10px 10px 10px;
+  background: #f9f06c;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .logo {
+  font-family: "Guerilla", serif;
+  text-align: center;
+}
+
+main #generator form button[type="button"] {
+  border-radius: 10px;
+  background: #f9f06c;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  background-color: #0794d3;
+}
+
+header .logo {
+  font-family: "Guerilla", serif;
+  text-align: center;
+}
+
+header {
+  margin-top: 15px;
+  background-color: #0794d3;
+  color: white;
+  max-height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 285%;
+  text-transform: capitalize;
+  cursor: default;
+}
+
+main {
+  min-height: 240px;
+  width: 350px;
+  /* background: #0794d3; */
+  border-radius: 30px 30px 30px 30px;
+  padding: 25px 15px 25px 15px;
+  /* -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+  margin-bottom: 5px;
+}
+
+main #generator form {
+  background: white;
+  min-height: 202px;
+  width: 325px;
+  margin: 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+main #generator form h3 {
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  cursor: default;
+  text-transform: none;
+  font-size: 140%;
+  margin: 0 0 15px 0;
+}
+
+main #generator form .symbols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #generator form .symbols .min {
+  padding: 0 0 0 0;
+  background: #f9f06c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 30px 0 0;
+  border-radius: 5px 5px 5px 5px;
+  min-height: 25px;
+  width: 60px;
+  border: none;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main #generator form .symbols .min label {
+  font-size: 14px;
+  margin: 0 5px 0 0;
+  padding: 0 0 0 0;
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  cursor: default;
+  text-transform: capitalize;
+}
+
+main #generator form .symbols .max {
+  padding: 0 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f9f06c;
+  border-radius: 5px 5px 5px 5px;
+  min-height: 25px;
+  width: 60px;
+  border: none;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main #generator form .symbols .max label {
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  cursor: default;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 0;
+}
+
+main #generator form .symbols input[type="text"] {
+  min-height: 20px;
+  width: 20px;
+  background: white;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  cursor: text;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+main #generator form button[type="button"] {
+  min-height: 30px;
+  width: 100px;
+  margin: 20px auto;
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+main #generator form button[type="button"]:active {
+  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-transform: translatey(5px);
+  transform: translatey(5px);
+}
+
+main #generator form #pass {
+  font-family: "Noto Sans Display Condensed", serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  cursor: default;
+  text-transform: none;
+}
+
+main #generator form #pass #newPass {
+  cursor: pointer;
+  color: #0794d3;
+  margin-top: 5px;
+}
+
+main #generator form #pass #copyBar {
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0 30px 30px 30px;
+  position: absolute;
+  width: 75px;
+  height: 35px;
+  z-index: 2;
+  padding: 8px 2px 8px 2px;
+  margin-left: 15px;
+  font-family: "Noto Sans Display Condensed", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  background: #f9f06c;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main #generator form #pass:hover #copyBar {
+  opacity: 1;
+}
